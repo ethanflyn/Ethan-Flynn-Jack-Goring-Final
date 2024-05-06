@@ -7,10 +7,10 @@ include 'top.php';
     <pre>
     CREATE TABLE tblWorldRecords(
         pmkInfo INT AUTO_INCREMENT PRIMARY KEY,
-        fldStore VARCHAR(40),
-        fldManager VARCHAR(40),
-        fldLocation VARCHAR(100),
-    	fldPhone INT(9)
+        fldName VARCHAR(40),
+        fldDate VARCHAR(40),
+        fldEvent VARCHAR(100),
+    	fldTime INT(9)
     )
     </pre>
     
