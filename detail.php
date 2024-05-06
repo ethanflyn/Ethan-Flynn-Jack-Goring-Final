@@ -43,7 +43,7 @@ include 'top.php';
                         <th>Time</th>
                     </tr>
 <?php
-$sql = 'SELECT fldStore, fldManager, fldLocation, fldPhone FROM tblContact';
+$sql = 'SELECT fldName, fldDate, fldEvent, fldTime FROM tblWorldRecords';
 $statement = $pdo->prepare($sql);
 $statement->execute();
 
