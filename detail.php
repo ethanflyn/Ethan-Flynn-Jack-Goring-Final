@@ -19,7 +19,7 @@ include 'top.php';
             </section>
 
             <section class="grid-item">
-                <img alt="Baron" src="images/olympics-baron.png" class="image">
+                <img alt="Baron" src="images/olympic-baron.png" class="image">
                 <h2>The Revival of the Olympics</h2>
                 <p>It took another 1,500 years for the Olympics to be revived as a result of Baron Pierre de  Coubertin, who proposed the reival of the games in 1892. Two years later, he got approval to found the International Olympic Committee (IOC). Since then, the Olympics have been held every four years, except for disruptions caused by war or global pandemics.</p>
             </section>
@@ -42,33 +42,30 @@ include 'top.php';
                         <th>Event</th>
                         <th>Time</th>
                     </tr>
-<?php
-$sql = 'SELECT fldName, fldDate, fldEvent, fldTime FROM tblWorldRecords';
-$statement = $pdo->prepare($sql);
-$statement->execute();
-
-$records = $statement->fetchAll();
-
-foreach($records as $record){
-    print '<tr>';
-    print '<td>' . $record['fldName'] . '</td>';
-    print '<td>' . $record['fldDate'] . '</td>';
-    print '<td>' . $record['fldEvent'] . '</td>';
-    print '<td>' . $record['fldTime'] . '</td>';
-    print '</tr>' . PHP_EOL;
-}
-?>
-
                     <tr>
-                        <td colspan="4"><cite>@kaioa_denda</cite></td>
+                        <td>Bolt</td>
+                        <td>08/05/2012</td>
+                        <td>100 Meter</td>
+                        <td>9.63</td>
                     </tr>
-                </table>
-            
-            </section>
-</section>
-            
-           
-        </main>
-        <?php include 'footer.php'; ?>
+                    <tr>
+                        <td>Bolt</td>
+                        <td>08/20/2008</td>
+                        <td>200 Meter</td>
+                        <td>19.30</td>
+                    </tr>
+                    <tr>
+                        <td>Wanjiru</td>
+                        <td>08/24/2008</td>
+                        <td>Marathon</td>
+                        <td>2:06:32</td>
+                    </tr>
+                    <tr>
+                        <td>Tellent</td>
+                        <td>08/11/2012</td>
+                        <td>50km Race Walk</td>
+                        <td>3:36:53</td>
+                    </tr> 
+
     </body>
 </html>
