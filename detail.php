@@ -19,7 +19,7 @@ include 'top.php';
             </section>
 
             <section class="grid-item">
-                <img alt="Baron" src="images/olympic-baron.png" class="image">
+                <img alt="Baron" src="images/olympics-baron.png" class="image">
                 <h2>The Revival of the Olympics</h2>
                 <p>It took another 1,500 years for the Olympics to be revived as a result of Baron Pierre de  Coubertin, who proposed the reival of the games in 1892. Two years later, he got approval to found the International Olympic Committee (IOC). Since then, the Olympics have been held every four years, except for disruptions caused by war or global pandemics.</p>
             </section>
