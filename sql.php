@@ -17,7 +17,7 @@ include 'top.php';
     <pre>
     INSERT INTO tblWorldRecords (fldName, fldDate, fldEvent, fldTime) VALUES
 ("Bolt","08/05/2012","100 Meter",9.63),("Bolt","08/20/2008","200 Meter",19.30),
-("Wanjiru","08/24/2008","Marathon","2:06:32"),("Tellent","08/11/2012","50km Rcae Walk",3:36:53)
+("Wanjiru","08/24/2008","Marathon","2:06:32"),("Tellent","08/11/2012","50km Race Walk",3:36:53)
     </pre>
     <pre>
     SELECT fldName, fldDate, fldEvent, fldTime FROM tblWorldRecords;
